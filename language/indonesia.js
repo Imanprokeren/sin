@@ -86,18 +86,19 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya Alphabot-Md, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+	return`Hai ${pushname} 👋 Selamat ${salam} , 
+Saya ImanBot, Jika Ada bug akan Segera Kami Perbaiki 🙏      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname}*
-*⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+    return `*🗿 Selamat ${salam} ${pushname}*
 
-╭─❒ 「 Bot Info 」 
+*⌚Time Server : ${time}*
+*🏵️ Subscribe : ManzBotEdtz*
+*📚 ListAll-Menu ImanBot :*
+*💅 Bot Dibuat Oleh ©Iman*
+
+╭─❒ 「 Bot Info ©ImanBot 」 
 ├ ${prefix}owner
 ├ ${prefix}rules
 ├ ${prefix}sc
@@ -107,7 +108,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}donate
 
 
-╭─❒ 「 Owner 」 
+╭─❒ 「 Owner ©ImanOffc 」 
 ├ < evaluate
 ├ > evaluate
 ├ $ exec
@@ -130,7 +131,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}setppbot [reply image]
 
 
-╭─❒ 「 Database 」 
+╭─❒ 「 Database ©ImanBot 」 
 ├ ${prefix}setcmd [reply stiker]
 ├ ${prefix}delcmd [reply stiker]
 ├ ${prefix}listcmd
@@ -590,16 +591,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒
 
 ╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Penyedia Module
+├ My God ©ImanBot
+├ My Parents ©ImanBot
 ╰❒ And All Support
     `
 }
@@ -642,16 +635,16 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 ya 🤗
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 ├ 𝖴𝗆𝗎𝗋 :
 ├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+╰❒ Thanks 😁 ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Yah kok out 😣 Mental aman? >.<
 Goodbye`
 }
 exports.source = () =>{
@@ -667,8 +660,6 @@ exports.tos = (ownernomer) => {
 
 Hai kak ☺️ 
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
 
 Thanks!
 
@@ -1204,14 +1195,9 @@ return`╭─❒ 「 Others 」
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
 ├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
+├ Kedua Orang Tua
+├ ImanOffc
+├ ImanBot
 ├ Penyedia Module
 ╰❒ And All Support
 `
